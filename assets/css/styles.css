@@ -19830,3 +19830,7 @@ ul {
 .services-tab  .nav-item p {
   padding-left: 40px;
 }
+
+.technology-serve-sec .marquee-content{
+      animation: marquee 40s linear infinite running;
+}
