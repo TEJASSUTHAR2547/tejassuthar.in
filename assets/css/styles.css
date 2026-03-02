@@ -19846,3 +19846,20 @@ ul {
   filter: unset;
 }
 
+.testimonial h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: normal;
+}
+
+.contact-details .hstack:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.contact-details .hstack  svg {
+    display: block;
+}
+
+.contact-details .hstack:last-child {
+    align-items: flex-start;
+}
