@@ -19800,19 +19800,19 @@ ul {
   padding: 10px 0;
 }
 
-.stats-facts .row > .col-md-6 > div p {
+.stats-facts .row>.col-md-6>div p {
   max-width: 370px;
 }
 
 .services-tab .tab-content>.tab-pane img.img-fluid {
-    max-width: 387px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
+  max-width: 387px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
 }
 
 .services-tab .tab-content>.tab-pane {
@@ -19828,38 +19828,77 @@ ul {
   color: var(--bs-primary);
 }
 
-.services-tab  .nav-item p {
+.services-tab .nav-item p {
   padding-left: 40px;
 }
 
-.technology-serve-sec .marquee-content{
-      animation: marquee 80s linear infinite running;
+.technology-serve-sec .marquee-content {
+  animation: marquee 80s linear infinite running;
 }
+
 .technology-serve-sec .marquee-content .marquee-tag {
-    filter: grayscale(1);
+  filter: grayscale(1);
 }
+
 .technology-serve-sec .marquee-content .marquee-tag:hover {
-    transform: scale(1);
-    cursor: pointer;
+  transform: scale(1);
+  cursor: pointer;
 }
-.technology-serve-sec .marquee-content .marquee-tag:hover{
+
+.technology-serve-sec .marquee-content .marquee-tag:hover {
   filter: unset;
 }
 
 .testimonial h4 {
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: normal;
 }
 
 .contact-details .hstack:not(:last-child) {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.contact-details .hstack  svg {
-    display: block;
+.contact-details .hstack svg {
+  display: block;
 }
 
 .contact-details .hstack:last-child {
-    align-items: flex-start;
+  align-items: flex-start;
+}
+
+/* Footer */
+.footer .row {
+  justify-content: space-between;
+}
+
+.footer .footer-left {
+  width: 32%;
+}
+
+.footer .footer-right {
+  width: 68%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 -10px;
+}
+
+.footer .footer-right .footer-col-2 {
+  width: 20%;
+  padding: 0 10px;
+}
+
+.footer .footer-right .footer-col-3 {
+  width: 31%;
+  padding: 0 10px;
+}
+
+.footer .footer-right .footer-col-4 {
+  width: 33%;
+  padding: 0 10px;
+}
+
+footer a:hover {
+    color: var(--bs-primary) !important;
 }
